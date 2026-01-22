@@ -1,0 +1,17 @@
+# ВНИМАНИЕ: Используйте Python 3.12
+# ВНИМАНИЕ: PyTorch (torch, torchvision) ДОЛЖЕН устанавливаться
+# ОТДЕЛЬНО перед этим файлом, в зависимости от вашей CPU/CUDA-версии (см. README.md)
+albumentations==1.4.10
+albucore==0.0.16
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+pandas==2.2.2
+Pillow==10.4.0
+pyyaml==6.0.1
+scikit-learn==1.5.1
+scipy==1.14.0
+matplotlib==3.9.1
+seaborn==0.13.2
+tensorboard==2.17.0
+tqdm==4.66.4
+ttkbootstrap==1.10.1

@@ -1,0 +1,13 @@
+[tool.ruff]
+# Глобальные настройки (остаются здесь)
+line-length = 120
+
+[tool.ruff.lint]
+# Настройки линтера (то, что проверяет `ruff check`)
+select = ["E", "W", "F", "I", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+# Настройки форматера (то, что проверяет `ruff format`)
+quote-style = "double"
+indent-style = "space"
